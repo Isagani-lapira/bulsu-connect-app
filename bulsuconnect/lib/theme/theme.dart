@@ -5,6 +5,7 @@ class AppTheme {
   static ThemeData themeData = ThemeData(
     iconTheme: const IconThemeData(color: AppColor.iconColor, size: 26.0),
     fontFamily: 'Poppins',
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(backgroundColor: AppColor.primary),
     textTheme: const TextTheme(
       titleLarge: TextStyle(fontSize: 32.0, color: AppColor.textColor),
       bodyMedium: TextStyle(fontSize: 14.0, color: AppColor.textColor),
